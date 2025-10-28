@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-ai-app"
+version = "0.1.0"
+description = "A Python project for developing an AI application."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tensorflow = "^2.6"
+torch = "^1.9"
+scikit-learn = "^0.24"
+flask = "^2.0"
+fastapi = "^0.68"
+uvicorn = "^0.15"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
